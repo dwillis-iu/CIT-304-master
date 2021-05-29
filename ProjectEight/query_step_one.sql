@@ -1,0 +1,3 @@
+CREATE TABLE BBT_USERS_TEMP
+AS (SELECT * FROM EMPLOYEE_INFO
+    WHERE employee_id >= 1 AND employee_id <= 10);
